@@ -15,6 +15,7 @@ enum SettingsOptionsViewModel: Int, CaseIterable, Identifiable {
     case privacy
     case notifications
     
+    
         var title: String {
             switch self {
             case .darkMode: return "Dark mode"
