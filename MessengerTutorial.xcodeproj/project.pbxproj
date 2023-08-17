@@ -34,6 +34,7 @@
 		D57E25612A8D0954003F4B37 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E25602A8D0954003F4B37 /* RegistrationViewModel.swift */; };
 		D57E25632A8D098F003F4B37 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E25622A8D098F003F4B37 /* AuthService.swift */; };
 		D57E25672A8D19E2003F4B37 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E25662A8D19E2003F4B37 /* ContentViewModel.swift */; };
+		D57E25692A8E5665003F4B37 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E25682A8E5665003F4B37 /* UserService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		D57E25602A8D0954003F4B37 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		D57E25622A8D098F003F4B37 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		D57E25662A8D19E2003F4B37 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D57E25682A8E5665003F4B37 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		D57E25292A83D4EC003F4B37 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				D57E25682A8E5665003F4B37 /* UserService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				D57E25492A8986D9003F4B37 /* CircularProfileImageView.swift in Sources */,
 				D57E25332A84CF3A003F4B37 /* InboxView.swift in Sources */,
 				D57E25422A86FD26003F4B37 /* SettingOptionsViewModel.swift in Sources */,
+				D57E25692A8E5665003F4B37 /* UserService.swift in Sources */,
 				D57E25442A870346003F4B37 /* ProfileViewModel.swift in Sources */,
 				D57E25462A8980EE003F4B37 /* User.swift in Sources */,
 				D57E255F2A8D0917003F4B37 /* LoginViewModel.swift in Sources */,
